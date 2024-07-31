@@ -1,8 +1,5 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-// import TwitterIcon from "@mui/icons-material/Twitter";
-// import GitHubIcon from "@mui/icons-material/GitHub";
-// import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
@@ -23,18 +20,6 @@ export default {
       icon: <FacebookIcon />,
       link: "https://www.facebook.com/tinyartisans",
     },
-    // {
-    //   icon: <TwitterIcon />,
-    //   link: "https://twitter.com/creativetim",
-    // },
-    // {
-    //   icon: <GitHubIcon />,
-    //   link: "https://github.com/sheridan-austad",
-    // },
-    // {
-    //   icon: <YouTubeIcon />,
-    //   link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    // },
   ],
   menus: [
     // {
@@ -44,22 +29,6 @@ export default {
     //     // { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
     //     // { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
     //     { name: "blog", href: "https://dev.to/sheridan95" },
-    //   ],
-    // },
-    // {
-    //   name: "resources",
-    //   items: [
-    //     { name: "illustrations", href: "https://iradesign.io/" },
-    //     { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-    //     { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-    //   ],
-    // },
-    // {
-    //   name: "legal",
-    //   items: [
-    //     { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-    //     { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-    //     { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
     //   ],
     // },
   ],

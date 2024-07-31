@@ -21,7 +21,7 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-// import MKButton from "components/MKButton";
+import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -99,18 +99,18 @@ function AboutUs() {
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#facebook">
+              {/* <MKTypography component="a" variant="body1" color="white" href="https://www.facebook.com/tinyartisans">
                 <i className="fab fa-facebook" />
-              </MKTypography>
-              {/* <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-instagram" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-twitter" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#">
-                <i className="fab fa-google-plus" />
               </MKTypography> */}
+              <MKSocialButton
+                component="a"
+                href="https://www.facebook.com/tinyartisans"
+                target="_blank"
+                color="facebook"
+                sx={{ mr: 1 }}
+              >
+                <i className="fab fa-facebook" />
+              </MKSocialButton>
             </MKBox>
           </Grid>
         </Container>
