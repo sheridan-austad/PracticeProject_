@@ -121,7 +121,7 @@ function Contact() {
                       <MKButton variant="text" color="white" size="large" iconOnly>
                         <i className="fab fa-facebook" style={{ fontSize: "1.25rem" }} />
                       </MKButton>
-                      <MKButton variant="text" color="white" size="large" iconOnly>
+                      {/* <MKButton variant="text" color="white" size="large" iconOnly>
                         <i className="fab fa-twitter" style={{ fontSize: "1.25rem" }} />
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
@@ -129,7 +129,7 @@ function Contact() {
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
                         <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} />
-                      </MKButton>
+                      </MKButton> */}
                     </MKBox>
                   </MKBox>
                 </MKBox>

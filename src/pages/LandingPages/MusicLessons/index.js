@@ -33,7 +33,7 @@ import routes from "routes";
 // Image
 import bgImage from "assets/images/examples/testimonial-6-3.jpg";
 
-function ContactUs() {
+function MusicLessons() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -147,11 +147,8 @@ function ContactUs() {
           </MKBox>
         </Grid>
       </Grid>
-      {/* <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox> */}
     </>
   );
 }
 
-export default ContactUs;
+export default MusicLessons;

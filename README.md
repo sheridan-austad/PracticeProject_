@@ -207,7 +207,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 Twitter: <https://twitter.com/CreativeTim>
 
-Facebook: <https://www.facebook.com/CreativeTim>
+Facebook: <https://www.facebook.com/tinyartisans">
 
 Dribbble: <https://dribbble.com/creativetim>
 

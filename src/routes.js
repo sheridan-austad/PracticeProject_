@@ -38,22 +38,37 @@ Coded by www.creative-tim.com
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
-import ContactUs from "layouts/pages/landing-pages/contact-us";
+import ArtClasses from "layouts/pages/landing-pages/art-classes";
 import Author from "layouts/pages/landing-pages/author";
+import ContactUs from "layouts/pages/landing-pages/contact-us";
+import MusicLessons from "layouts/pages/landing-pages/music-lessons";
+import SignLanguage from "layouts/pages/landing-pages/sign-language";
+import SpanishVocab from "layouts/pages/landing-pages/spanish-vocab";
+import Subbing from "layouts/pages/landing-pages/subbing";
 
 const routes = [
   {
-    name: "pages",
+    name: "menu",
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "landing pages",
+        // name: "landing pages",
         collapse: [
           {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
+            name: "home",
+            route: "/pages/landing-pages/home",
             component: <AboutUs />,
+          },
+          {
+            name: "art classes",
+            route: "/pages/landing-pages/art-classes",
+            component: <ArtClasses />,
+          },
+          {
+            name: "about the owner",
+            route: "/pages/landing-pages/about-the-owner",
+            component: <Author />,
           },
           {
             name: "contact us",
@@ -61,9 +76,24 @@ const routes = [
             component: <ContactUs />,
           },
           {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
+            name: "music lessons",
+            route: "/pages/landing-pages/music-lessons",
+            component: <MusicLessons />,
+          },
+          {
+            name: "sign language",
+            route: "/pages/landing-pages/sign-language",
+            component: <SignLanguage />,
+          },
+          {
+            name: "spanish vocab",
+            route: "/pages/landing-pages/spanish-vocab",
+            component: <SpanishVocab />,
+          },
+          {
+            name: "subbing",
+            route: "/pages/landing-pages/subbing",
+            component: <Subbing />,
           },
         ],
       },

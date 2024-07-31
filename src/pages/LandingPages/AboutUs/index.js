@@ -99,7 +99,7 @@ function AboutUs() {
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#">
+              <MKTypography component="a" variant="body1" color="white" href="#facebook">
                 <i className="fab fa-facebook" />
               </MKTypography>
               {/* <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>

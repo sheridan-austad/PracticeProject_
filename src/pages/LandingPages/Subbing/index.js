@@ -33,7 +33,7 @@ import routes from "routes";
 // Image
 import bgImage from "assets/images/examples/testimonial-6-3.jpg";
 
-function ContactUs() {
+function Subbing() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -154,4 +154,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default Subbing;
