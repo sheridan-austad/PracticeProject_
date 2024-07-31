@@ -25,8 +25,8 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 // Author page sections
 import Profile from "pages/LandingPages/Author/sections/Profile";
 import Posts from "pages/LandingPages/Author/sections/Posts";
-import Contact from "pages/LandingPages/Author/sections/Contact";
-import Footer from "pages/LandingPages/Author/sections/Footer";
+// import Contact from "pages/LandingPages/Author/sections/Contact";
+// import Footer from "pages/LandingPages/Author/sections/Footer";
 
 // Routes
 import routes from "routes";
@@ -39,12 +39,12 @@ function Author() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
+        // action={{
+        //   type: "external",
+        //   route: "https://www.creative-tim.com/product/material-kit-react",
+        //   label: "free download",
+        //   color: "info",
+        // }}
         transparent
         light
       />
@@ -78,8 +78,8 @@ function Author() {
           <Profile />
           <Posts />
         </Card>
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
+        {/* <Footer /> */}
       </MKBox>
     </>
   );
