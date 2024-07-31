@@ -94,8 +94,8 @@ function AboutUs() {
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               Little blurb about the company and whatever else we want to write here
             </MKTypography>
-            <img src="/public/TinyArtisansLogo.png" alt="company icon" />
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
+            <img src="/TinyArtisansLogo.png" alt="company icon" width="200" height="200" />
+            <MKTypography variant="h6" color="white" mt={3}>
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
