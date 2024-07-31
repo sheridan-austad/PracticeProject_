@@ -26,7 +26,7 @@ import headerOneCode from "layouts/sections/page-sections/page-headers/component
 function PageHeaders() {
   return (
     <BaseLayout
-      title="Page Headers"
+      title="Header 1"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/page-sections/page-headers" },
         { label: "Page Headers" },

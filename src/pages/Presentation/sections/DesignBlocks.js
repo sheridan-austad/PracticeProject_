@@ -22,7 +22,7 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
+// import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
 // Presentation page components
@@ -60,7 +60,7 @@ function DesignBlocks() {
 
   return (
     <MKBox component="section" my={6} py={6}>
-      <Container>
+      {/* <Container>
         <Grid
           container
           item
@@ -80,12 +80,12 @@ function DesignBlocks() {
           <MKTypography variant="h2" fontWeight="bold">
             Huge collection of sections
           </MKTypography>
-          <MKTypography variant="body1" color="text">
+          {/* <MKTypography variant="body1" color="text">
             We have created multiple options for you to put together and customise into pixel
             perfect pages.
-          </MKTypography>
+          </MKTypography> 
         </Grid>
-      </Container>
+      </Container> */}
       <Container sx={{ mt: 6 }}>{renderData}</Container>
     </MKBox>
   );

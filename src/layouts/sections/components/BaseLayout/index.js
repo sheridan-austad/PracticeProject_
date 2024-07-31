@@ -25,17 +25,17 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import CenteredFooter from "examples/Footers/CenteredFooter";
 import Breadcrumbs from "examples/Breadcrumbs";
 
 // Routes
-import routes from "routes";
+// import routes from "routes";
 
 function BaseLayout({ breadcrumb, title, children }) {
   return (
     <MKBox display="flex" flexDirection="column" bgColor="white" minHeight="100vh">
-      <MKBox bgColor="white" shadow="sm" py={0.25}>
+      {/* <MKBox bgColor="white" shadow="sm" py={0.25}>
         <DefaultNavbar
           routes={routes}
           action={{
@@ -47,7 +47,7 @@ function BaseLayout({ breadcrumb, title, children }) {
           transparent
           relative
         />
-      </MKBox>
+      </MKBox> */}
       <Container sx={{ mt: 6 }}>
         <Grid container item xs={12} flexDirection="column" justifyContent="center" mx="auto">
           <MKBox width={{ xs: "100%", md: "50%", lg: "25%" }} mb={3}>

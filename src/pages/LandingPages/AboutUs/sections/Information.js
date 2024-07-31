@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+// import Container from "@mui/material/Container";
+// import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
+// import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+// import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 
 function Information() {
   return (
-    <MKBox component="section" py={12}>
-      <Container>
+    <MKBox>
+      {/* <Container>
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} lg={6}>
             <Grid container justifyContent="flex-start">
@@ -83,7 +83,7 @@ function Information() {
             />
           </Grid>
         </Grid>
-      </Container>
+      </Container> */}
     </MKBox>
   );
 }
