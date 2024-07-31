@@ -1,25 +1,28 @@
 // @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "/home/sheridan95/practice_projects/PracticeProject_/src/assets/images/TinyArtisans Logo.png";
+// import logoCT from "/home/sheridan95/practice_projects/PracticeProject_/src/assets/images/TinyArtisans Logo.png";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Home",
-    image: logoCT,
-    route: "/pages/landing-pages/about-us",
+    // name: "Home",
+    // image: logoCT,
+    // route: "/pages/landing-pages/about-us",
   },
   socials: [
-    {
-      icon: <FacebookIcon />,
-      link: "https://www.facebook.com/tinyartisans",
-    },
+    // {
+    //   icon: <FacebookIcon />,
+    //   link: "https://www.facebook.com/tinyartisans",
+    // },
   ],
   menus: [
     // {
