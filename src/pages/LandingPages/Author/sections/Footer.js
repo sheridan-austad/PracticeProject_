@@ -36,9 +36,9 @@ function Footer() {
             mr="auto"
             mb={{ xs: 3, lg: 0 }}
           >
-            <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
+            {/* <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
               Material Design
-            </MKTypography>
+            </MKTypography> */}
             <Stack
               component="ul"
               direction="row"
@@ -55,8 +55,8 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
-                  target="_blank"
+                  href="/pages/landing-pages/about-us"
+                  // target="_blank"
                   rel="noreferrer"
                 >
                   Home
@@ -68,8 +68,8 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/presentation"
-                  target="_blank"
+                  href="/pages/landing-pages/about-the-owner"
+                  // target="_blank"
                   rel="noreferrer"
                 >
                   About
@@ -81,24 +81,11 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/blog"
-                  target="_blank"
+                  href="/pages/landing-pages/contact-us"
+                  // target="_blank"
                   rel="noreferrer"
                 >
-                  Blog
-                </MKTypography>
-              </MKBox>
-              <MKBox component="li">
-                <MKTypography
-                  variant="button"
-                  fontWeight="regular"
-                  opacity={0.8}
-                  component={Link}
-                  href="https://www.creative-tim.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Services
+                  Contact Us
                 </MKTypography>
               </MKBox>
             </Stack>

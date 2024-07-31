@@ -3,12 +3,15 @@
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
 import routes from "routes";
 // import footerRoutes from "footer.routes";
+import Footer from "../Author/sections/Footer";
 
 // Image
 import bgImage from "assets/images/spanish-vocab.jpg";
@@ -36,7 +39,12 @@ function SpanishVocab() {
         mt={2}
         sx={{ backgroundImage: `url(${bgImage})` }}
       />
-      <h1>Spanish Vocab</h1>
+      <MKBox>
+        <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
+          Spanish Vocab
+        </MKTypography>
+      </MKBox>
+      <Footer />
     </>
   );
 }

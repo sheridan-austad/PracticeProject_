@@ -3,8 +3,12 @@
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+
+import Footer from "../Author/sections/Footer";
 
 // Routes
 import routes from "routes";
@@ -36,7 +40,12 @@ function Subbing() {
         mt={2}
         sx={{ backgroundImage: `url(${bgImage})` }}
       />
-      <h1>Subbing</h1>
+      <MKBox>
+        <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
+          Subbing
+        </MKTypography>
+      </MKBox>
+      <Footer />
     </>
   );
 }

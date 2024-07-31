@@ -3,6 +3,8 @@
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
@@ -12,6 +14,8 @@ import routes from "routes";
 
 // Image
 import bgImage from "assets/images/music-photo.jpg";
+
+import Footer from "../Author/sections/Footer";
 
 function MusicLessons() {
   return (
@@ -36,7 +40,12 @@ function MusicLessons() {
         mt={2}
         sx={{ backgroundImage: `url(${bgImage})` }}
       />
-      <h1>Music Lessons</h1>
+      <MKBox>
+        <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
+          Music Lessons
+        </MKTypography>
+      </MKBox>
+      <Footer />
     </>
   );
 }

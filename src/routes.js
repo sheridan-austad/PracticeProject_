@@ -61,19 +61,14 @@ const routes = [
             component: <AboutUs />,
           },
           {
-            name: "art classes",
-            route: "/pages/landing-pages/art-classes",
-            component: <ArtClasses />,
-          },
-          {
             name: "about the owner",
             route: "/pages/landing-pages/about-the-owner",
             component: <Author />,
           },
           {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
+            name: "art classes",
+            route: "/pages/landing-pages/art-classes",
+            component: <ArtClasses />,
           },
           {
             name: "music lessons",
@@ -94,6 +89,11 @@ const routes = [
             name: "subbing",
             route: "/pages/landing-pages/subbing",
             component: <Subbing />,
+          },
+          {
+            name: "contact us",
+            route: "/pages/landing-pages/contact-us",
+            component: <ContactUs />,
           },
         ],
       },

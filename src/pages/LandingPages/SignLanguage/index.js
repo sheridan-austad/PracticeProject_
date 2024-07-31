@@ -13,6 +13,9 @@ import routes from "routes";
 // Image
 import bgImage from "assets/images/sign-language-image.jpg";
 
+import Footer from "../Author/sections/Footer";
+import MKTypography from "components/MKTypography";
+
 function SignLanguage() {
   return (
     <>
@@ -36,7 +39,12 @@ function SignLanguage() {
         mt={2}
         sx={{ backgroundImage: `url(${bgImage})` }}
       />
-      <h1>Sign Language</h1>
+      <MKBox>
+        <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
+          Sign Language
+        </MKTypography>
+      </MKBox>
+      <Footer />
     </>
   );
 }

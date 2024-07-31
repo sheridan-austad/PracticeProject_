@@ -3,6 +3,8 @@
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
@@ -13,7 +15,9 @@ import routes from "routes";
 // Image
 import bgImage from "assets/images/art-image.jpg";
 
-function ContactUs() {
+import Footer from "../Author/sections/Footer";
+
+function ArtClasses() {
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -36,9 +40,14 @@ function ContactUs() {
         mt={2}
         sx={{ backgroundImage: `url(${bgImage})` }}
       />
-      <h1>Art Classes</h1>
+      <MKBox>
+        <MKTypography variant="body1" color="black" opacity={0.8} mt={1} mb={3}>
+          Art Classes
+        </MKTypography>
+      </MKBox>
+      <Footer />
     </>
   );
 }
 
-export default ContactUs;
+export default ArtClasses;
