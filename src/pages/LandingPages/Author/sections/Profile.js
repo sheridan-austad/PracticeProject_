@@ -45,7 +45,7 @@ function Profile() {
                 </MKButton> */}
               </MKBox>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Here is where you can write something about you, maybe why you started the company.
+                Tiny artisans was created to provide engaging art and enrichment activities for in home daycare. We focus on fostering creativity and imagination, helping children discover their artist through fun and educational experiences.
                 {/* <MKTypography
                   component="a"
                   href="#"

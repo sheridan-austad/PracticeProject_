@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import team2 from "/home/sheridan95/practice_projects/PracticeProject_/src/assets/images/Lachelle img.jpg";
 import team1 from "/home/sheridan95/practice_projects/PracticeProject_/src/assets/images/profile pic for site.png";
-import team3 from "assets/images/ivana-squares.jpg";
+// import team3 from "assets/images/ivana-squares.jpg";
 
 function Team() {
   return (
@@ -72,7 +72,7 @@ function Team() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} lg={6}>
+          {/* <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3}
@@ -81,7 +81,7 @@ function Team() {
                 description="fun fact about me."
               />
             </MKBox>
-          </Grid>
+          </Grid> */}
           {/* <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
