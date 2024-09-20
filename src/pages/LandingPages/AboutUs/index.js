@@ -38,7 +38,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "/home/sheridan95/practice_projects/PracticeProject_/src/assets/images/bg3.jpg";
+import bgImage from "/home/sheridan95/practice/PracticeProject_/src/bg3.jpg";
 
 function AboutUs() {
   return (
@@ -92,7 +92,7 @@ function AboutUs() {
               Tiny Artisans
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Little blurb about the company and whatever else we want to write here
+              Sparking Creativity in Childcare
             </MKTypography>
             <img src="/TinyArtisansLogo.png" alt="company icon" width="200" height="200" />
             <MKTypography variant="h6" color="white" mt={3}>
