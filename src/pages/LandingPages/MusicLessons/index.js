@@ -13,7 +13,7 @@ import routes from "routes";
 // import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/music-photo.jpg";
+import bgImage from "/home/sheridan95/practice_projects/PracticeProject_/src/music-photo.jpg";
 
 import Footer from "../Author/sections/Footer";
 

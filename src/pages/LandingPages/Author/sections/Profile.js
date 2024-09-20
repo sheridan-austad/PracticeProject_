@@ -26,7 +26,7 @@ import MKAvatar from "components/MKAvatar";
 import MKTypography from "components/MKTypography";
 
 // Images
-import profilePicture from "/home/sheridan95/practice/PracticeProject_/src/Lachelle img.jpg";
+import profilePicture from "/home/sheridan95/practice_projects/PracticeProject_/src/Lachelle img.jpg";
 
 function Profile() {
   return (
@@ -45,11 +45,7 @@ function Profile() {
                 </MKButton> */}
               </MKBox>
               <MKTypography variant="body1" fontWeight="light" color="text">
-<<<<<<< HEAD
                 Tiny artisans was created to provide engaging art and enrichment activities for in home daycare. We focus on fostering creativity and imagination, helping children discover their artist through fun and educational experiences.
-=======
-                Tiny Artisans was created to provide engaging art and enrichment activites for in home daycare. We focus on fostering creativity and imagination, helping children discover their artist through fun and educational experiences.
->>>>>>> 890e4407f98230a93ce5c8b767d333fba2f49ac7
                 {/* <MKTypography
                   component="a"
                   href="#"

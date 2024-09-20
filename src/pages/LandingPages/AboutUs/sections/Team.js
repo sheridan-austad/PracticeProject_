@@ -25,8 +25,8 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team2 from "/home/sheridan95/practice/PracticeProject_/src/Lachelle img.jpg";
-import team1 from "/home/sheridan95/practice/PracticeProject_/src/profile pic for site.png";
+import team2 from "/home/sheridan95/practice_projects/PracticeProject_/src/Lachelle img.jpg";
+import team1 from "/home/sheridan95/practice_projects/PracticeProject_/src/profile pic for site.png";
 // import team3 from "assets/images/ivana-squares.jpg";
 
 function Team() {

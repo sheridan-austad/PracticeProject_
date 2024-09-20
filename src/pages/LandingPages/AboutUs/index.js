@@ -38,7 +38,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "/home/sheridan95/practice/PracticeProject_/src/bg3.jpg";
+import bgImage from "/home/sheridan95/practice_projects/PracticeProject_/src/bg3.jpg";
 
 function AboutUs() {
   return (
