@@ -26,7 +26,7 @@ import MKAvatar from "components/MKAvatar";
 import MKTypography from "components/MKTypography";
 
 // Images
-import profilePicture from "assets/images/Lachelle img.jpg";
+import profilePicture from "/home/sheridan95/practice/PracticeProject_/src/Lachelle img.jpg";
 
 function Profile() {
   return (
@@ -45,7 +45,7 @@ function Profile() {
                 </MKButton> */}
               </MKBox>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Here is where you can write something about you, maybe why you started the company.
+                Tiny Artisans was created to provide engaging art and enrichment activites for in home daycare. We focus on fostering creativity and imagination, helping children discover their artist through fun and educational experiences.
                 {/* <MKTypography
                   component="a"
                   href="#"
